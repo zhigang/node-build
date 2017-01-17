@@ -5,6 +5,6 @@ echo $PWD
 echo "--------install----------"
 npm install
 echo "---------build-----------"
-npm build
+npm run build
 exit 0;
 
