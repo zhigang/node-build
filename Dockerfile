@@ -10,6 +10,8 @@ ADD ./exec.sh /usr/local/node
 
 RUN chmod +x /usr/local/node/exec.sh
 
+RUN npm install -g yarn
+
 WORKDIR /usr/src/app
 
 ENTRYPOINT ["/bin/sh","/usr/local/node/exec.sh"]

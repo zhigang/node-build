@@ -3,8 +3,8 @@ set -e
 echo "-------work dir----------"
 echo $PWD
 echo "--------install----------"
-npm install
+yarn install
 echo "---------build-----------"
-npm run build
+yarn run build
 exit 0;
 
