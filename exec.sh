@@ -1,5 +1,8 @@
 #!/bin/bash
-set -e
+set -o errexit
+set -o nounset
+set -o pipefail
+
 export CONFIG=${CONFIG:-"npm"}
 export ARG=$2
 
