@@ -1,6 +1,6 @@
-FROM node:7.4.0-alpine
+FROM node:8.11.3-alpine
 
-MAINTAINER siriuszg <zhigang52110@sina.com>
+LABEL maintainer="zhigang52110@sina.com"
 
 RUN mkdir -p /usr/local/node && mkdir -p /etc/node-cache
 
