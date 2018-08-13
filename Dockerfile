@@ -6,7 +6,7 @@ RUN mkdir -p /usr/local/node && mkdir -p /etc/node-cache
 
 RUN npm config set cache "/etc/node-cache"
 
-RUN npm install -g yarn
+# RUN npm install -g yarn
 
 COPY ./exec.sh /usr/local/node
 
