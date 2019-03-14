@@ -1,6 +1,9 @@
-FROM node:8.11.3-alpine
+FROM node:8.15.1-alpine
 
 LABEL maintainer="zhigang52110@sina.com"
+
+RUN apk update && apk upgrade && \
+    apk add --no-cache git openssh
 
 RUN mkdir -p /usr/local/node && mkdir -p /etc/node-cache
 

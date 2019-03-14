@@ -12,6 +12,7 @@ docker pull siriuszg/node-build:TAG
 
 ### Docker Tag
 
+* `8.15.1-alpine`
 * `8.11.3-alpine`
 * `v1.3`,`latest`
   * node:7.4.0-alpine
