@@ -1,4 +1,4 @@
-FROM node:11.15.0-alpine
+FROM node:12.6.0-alpine
 
 LABEL maintainer="zhigang52110@sina.com"
 
